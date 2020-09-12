@@ -1,45 +1,14 @@
-unsigned long timer = 0;
-long loopTime = 5000;   // microseconds
+//double x = 0.00;
+//const double pi = 3.141592653589;
 
 void setup() {
-  Serial.begin(38400);
-  timer = micros();
+  Serial.begin(115200);
 }
 
 void loop() {
-  timeSync(loopTime);
-  int val = analogRead(0) - 512;
+  double val = analogRead(0);
+//  double val = sin(pi*x);
   Serial.println(val);
-}
-
-void timeSync(unsigned long deltaT)
-{
-  unsigned long currTime = micros();
-  long timeToDelay = deltaT - (currTime - timer);
-  if (timeToDelay > 5000)
-  {
-    delay(timeToDelay / 1000);
-    delayMicroseconds(timeToDelay % 1000);
-  }
-  else if (timeToDelay > 0)
-  {
-    delayMicroseconds(timeToDelay);
-  }
-  else
-  {
-      // timeToDelay is negative so we start immediately
-  }
-  timer = currTime + timeToDelay;
-}
-
-void sendToPC(int* data)
-{
-  byte* byteData = (byte*)(data);
-  Serial.write(byteData, 2);
-}
-
-void sendToPC(double* data)
-{
-  byte* byteData = (byte*)(data);
-  Serial.write(byteData, 4);
+//  x += 0.005;
+  delay(10);
 }

@@ -9,7 +9,7 @@ import pandas as pd
  
  
 class serialPlot:
-    def __init__(self, serialPort = '/dev/cu.usbmodem142401', serialBaud = 38400, plotLength = 100, dataNumBytes = 8):
+    def __init__(self, serialPort = '/dev/cu.usbmodem14101', serialBaud = 115200, plotLength = 100, dataNumBytes = 8):
         self.port = serialPort
         self.baud = serialBaud
         self.plotMaxLength = plotLength
@@ -67,8 +67,8 @@ class serialPlot:
  
 def main():
     # portName = 'COM5'     # for windows users
-    portName = '/dev/cu.usbmodem142401'
-    baudRate = 38400
+    portName = '/dev/cu.usbmodem14101'
+    baudRate = 115200
     maxPlotLength = 100
     dataNumBytes = 8        # number of bytes of 1 data point
     s = serialPlot(portName, baudRate, maxPlotLength, dataNumBytes)   # initializes all required variables

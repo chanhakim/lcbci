@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../serial_plotting_tutorials"
+		},
+		{
+			"path": "../../../../../../Projects/RTGraph/rtgraph"
+		}
+	]
+}
