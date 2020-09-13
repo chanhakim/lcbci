@@ -8,9 +8,16 @@ With the recent progress of startups like Neuralink and Neurable, *brain-compute
 
 
 
-## In This Repo
+## In This Repository
 
+### Overview of Directories and Folders in this Repository
 
+- arduino – contains the Arduino code used to drive the BCI
+- datasheets – contains the datasheets for the amplifiers (instrument & operational) used to create the BCI's amplification/filter module
+- guis – contains mBCI Lab v0.0.1 + prototype GUIs
+- misc – contains miscallenous code examples + Flicker Lab (a variable-FPS checkerboard pattern flicker program)
+- papers – contains papers/articles/links used to create the BCI
+- photos – contains photos of BCI + mBCI Lab + circuit schematics
 
 
 
@@ -96,7 +103,7 @@ things that went well
 1. Sepúlveda S, Reyes P, and Weinstein A. Visualizing physiological signals in real-time. *Proc.* of the 14th *Python in Science Conf.,* 182-186 (2015).
 2. cornell eeg
 3. eeg home project
-4. emotiv
+4. 
 
 
 
