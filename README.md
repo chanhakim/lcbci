@@ -10,19 +10,17 @@ With the recent progress of startups like Neuralink and Neurable, *brain-compute
 
 ## In This Repository
 
-### Overview of the Repository's Sub-Directories
-
-- arduino – contains the Arduino code used to drive the BCI
-  - 100Hz – Arduino code for reading single-channel signal @ 100 Hz
-  - 200Hz – Arduino code for reading single-channel signal @ 200 Hz
-- datasheets – contains instrument & operational amplifier datasheets used in BCI circuit
-- guis – contains mBCI Lab v0.0.1 + prototype GUIs
-  - mbci_lab – link to mbci_lab repository (main GUI for the mBCI project)
-  - pyqt5 – contains pyqt5-based prototype GUI
-  - tkinter - contains tkinter-based prototype GUI
-- misc – contains miscallenous code examples + Flicker Lab (checkerboard pattern flicker program)
-- papers – contains papers/articles/links used to create the BCI
-- photos – contains photos of BCI + mBCI Lab + circuit schematics
+- **arduino** – contains the Arduino code used to drive the BCI
+  - **100Hz** – Arduino code for reading single-channel signal @ 100 Hz
+  - **200Hz** – Arduino code for reading single-channel signal @ 200 Hz
+- **datasheets** – contains instrument & operational amplifier datasheets used in BCI circuit
+- **guis** – contains mBCI Lab v0.0.1 + prototype GUIs
+  - **mbci_lab** – link to mbci_lab repository (main GUI for the mBCI project)
+  - **pyqt5** – contains pyqt5-based prototype GUI
+  - **tkinter** - contains tkinter-based prototype GUI
+- **misc** – contains miscallenous code examples + Flicker Lab (checkerboard pattern flicker program)
+- **papers** – contains papers/articles/links used to create the BCI
+- **photos** – contains photos of BCI + mBCI Lab + circuit schematics
 
 
 
