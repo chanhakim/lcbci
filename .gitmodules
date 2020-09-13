@@ -1,0 +1,3 @@
+[submodule "guis/mbci_lab"]
+	path = guis/mbci_lab
+	url = https://github.com/chanhakim/mbci_lab.git

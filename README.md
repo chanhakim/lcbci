@@ -1,8 +1,10 @@
-# Low-Cost Brain-Computer Interface (lcbci)
+# Minimal Brain-Computer Interface (RAISE 2020 Project)
 
 
 
 ## Abstract
+
+With the recent progress of startups like Neuralink and Neurable, brain-computer interfaces are emerging as 'the next big thing' in the consumer tech market. A brain-computer interface or BCI is a device that can read and interpret neural signals, such as electroencephalography (EEG). BCIs are interdisciplinary, combining neuroscience, circuits, signal processing and machine learning, and their immense complexity often requires a team of experts to create a novel system. This project aimed to understand basic neuroscience and circuit concepts and resulted in creating an arduino-based BCI and a real-time signal plotting program (mBCI Lab). Specifically, an Arduino Duemila and an EEG circuit design from an existing BCI project were used to create the BCI circuit, and the real-time signal plotting program was based upon a Python-based, real-time graphing project by Sepúlvelda et al. in 2014. In the future, I will delve into more advanced neuroscience and circuits topics--to further deepen my understanding of BCI technology--and learn how to apply machine learning techniques to interpreting neural signals. 
 
 
 
@@ -19,7 +21,7 @@
 
 ## Introduction
 
-Brain-computer interfaces are an emerging consumer product in the tech industry. Startups like Neuralink, Neurable, and Emotiv seek to  The goal of this independent project is to build a relatively low-cost brain-computer interface (<$200) using an Arduino microcontroller and C/C++ programming.
+
 
 
 
@@ -99,7 +101,7 @@ then found an open-source real-time plotter in pyqt5
 
 ## Acknowledgements
 
-I'd like to thank Professor Osborn (Pomona College Computer Science) for his mentorship and the *Fletcher Jones* (?) Foundation for funding my summer project.
+I'd like to thank Professor Osborn (Pomona College Computer Science) for his mentorship and the Fletcher Jones Foundation for funding my summer project.
 
 
 
