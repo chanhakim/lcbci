@@ -77,7 +77,7 @@ Brain-computer interfaces are systems that read and interpret signals from the n
 
 ![Figure 3](photos/figures/fig3.png)
 
-**Figure 3. An image of a minimal BCI.** The circuit uses an Arduino Due (boxed in cyan) and connects to a computer via a micro-USB to USB cable (not pictured). The electrodes (circled in orange) connect to the locations on the scalp associated with the desired neural signal, and the amplification/filter module (boxed in light purple) amplifies and filters the neural signal. Amplification increase the strength of the signal, and filtering removes the unwanted noise in the signal. This BCI circuit is minimal in the sense that it reads neural signal from a single location and utilizes a relatively basic amplifier-and-filter module.
+**Figure 3. An image of a minimal BCI.** The circuit uses an Arduino Due (boxed in cyan) and connects to a computer via a micro-USB to USB cable (not pictured). The electrodes (circled in orange) connect to the locations on the scalp associated with the desired neural signal, and the amplification/filter module (boxed in light purple) amplifies and filters the neural signal. Amplification increases the strength of the signal, and filtering removes the unwanted noise in the signal. This BCI circuit is minimal in the sense that it reads neural signal from a single location and utilizes a relatively basic amplifier-and-filter module.
 
 #### mBCI Lab v0.0.1 (a real-time signal plotting/recording program)
 
