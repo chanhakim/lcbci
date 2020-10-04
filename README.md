@@ -69,7 +69,7 @@ Brain-computer interfaces are systems that read and interpret signals from the n
 
 ![Figure 2](photos/figures/fig2.png)
 
-**Figure 2. A diagram of UI tech stacks.** A tech stack is the set of technologies a program uses. Each tech stack corresponds to a prototype real-time signal plotting program created in this project. The final version of the program uses RTGraph, a real-time signal plotting program implemented in Python [4].
+**Figure 2. A diagram of UI tech stacks.** Each tech stack corresponds to a prototype real-time signal plotting program created in this project. The final version of the program uses RTGraph, a real-time signal plotting program implemented in Python [4].
 
 ### Results
 
